@@ -1,4 +1,4 @@
-from vehicule import Vehicule
+from exo2.vehicule import Vehicule
 class Bus(Vehicule):
 
 

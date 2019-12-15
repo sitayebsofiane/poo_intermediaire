@@ -1,6 +1,6 @@
-from voiture import Voiture
-from RenaultClio import RenaultClio
-from bus import Bus
+from exo2.voiture import Voiture
+from exo1.RenaultClio import RenaultClio
+from exo2.bus import Bus
 c=RenaultClio()
 print(c.get_number_doors())
 c.set_color("noire")
