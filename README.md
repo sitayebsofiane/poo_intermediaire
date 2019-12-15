@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Exercice 1: Attributs de classe et encapsulation
 
 Dans cet exercice vous aller créer une classe chargée de représenter un objet que vous connaissez tousles Renault Clio.
@@ -64,3 +65,9 @@ Ajouter un produit au panier par une simple addition. Par exemple, si j’ai une
 Afficher une carte d’identité complète de l’employé par un simple print. Autrement-dit, si j’ai une variable employee contenant une instance de la classe Employee je dois pouvoir écrire print(employee) et obtenir dans le terminal un petit texte affichant le nom, prénom et l’âge de l’employé mais aussi sont statut.
 
 Vérifier que l’employé a le statut requis grâce à l’opérateur >=. Autrement-dit, si j’ai une variable employee contenant une instance de la classe Employee avec le statut ‘employee’ alors je dois pouvoir écrire print(employee >= ‘manager’) et cela affichera False dans la console. Inversement si j’écris print(employee >= ‘employee’) , cela doit afficher True dans la console. Testez les comportements attendus dans le fichier main.py
+=======
+# poo_intermediaire
+medium programmation objet in python
+
+some legacy exercises in python, use of special methods in folder 3 for exercise 3
+>>>>>>> 076f9fc76f64c140963e86d167c5b30f69b873ba
