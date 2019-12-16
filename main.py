@@ -4,6 +4,7 @@ from exo2.bus import Bus
 from exo3.produit import Produit
 from exo3.customer import Client
 from exo3.employe import Employe
+from exo3.person import Person
 """
 c=RenaultClio()
 print(c.get_number_doors())
@@ -20,14 +21,20 @@ print(b.number_floors)
 exercise three
 
 """
+""" creation de person et du Person"""
+person=Person("mahydine","farid",34)
+print(person)
 """ creation de produit et du client"""
 product=Produit("tomate",1.2)
 customer=Client("harlein","bruno",40)
+
 """ creation de l'employé"""
 employe=Employe("turk","nicolas",34)
 print(employe)
+
 """ ajout d'un produit au panier"""
 customer + product
+
 """affichage"""
 print(customer.total)
 employe.statut="manager"
