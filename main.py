@@ -25,6 +25,7 @@ product=Produit("tomate",1.2)
 customer=Client("harlein","bruno",40)
 """ creation de l'employé"""
 employe=Employe("turk","nicolas",34)
+print(employe)
 """ ajout d'un produit au panier"""
 customer + product
 """affichage"""

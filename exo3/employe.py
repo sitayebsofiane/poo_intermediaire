@@ -24,4 +24,4 @@ class Employe(Person):
 
 
     def __repr__(self):
-        return "nom: ({}) prenom: ({}) age: ({}) sont statut {}".format(self.nom, self.prenom, self.age,self.__statut)
+        return Person.__repr__(self)+ " son statut {}".format(self.__statut)

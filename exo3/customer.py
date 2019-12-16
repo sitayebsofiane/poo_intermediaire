@@ -20,5 +20,5 @@ class Client(Person):
         self.total=produit.prix
 
     def __repr__(self):
-        return "nom: ({}) prenom: ({}) age: ({}) il a acheté ces produits {} ".format(self.nom, self.prenom, self.age,
-                                                                                       self.__panier)
+        return Person.__repr__(self)+" il a acheté ces produits {} ".format(self.__panier)
+
