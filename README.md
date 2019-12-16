@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Exercice 1: Attributs de classe et encapsulation
 
 Dans cet exercice vous aller créer une classe chargée de représenter un objet que vous connaissez tousles Renault Clio.
@@ -70,4 +70,4 @@ Vérifier que l’employé a le statut requis grâce à l’opérateur >=. Autre
 medium programmation objet in python
 
 some legacy exercises in python, use of special methods in folder 3 for exercise 3
->>>>>>> 076f9fc76f64c140963e86d167c5b30f69b873ba
+
