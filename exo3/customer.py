@@ -4,7 +4,7 @@ from exo3.produit import Produit
 class Client(Person):
 
     def __init__(self,nom,prenom,age):
-        Person.__init__(self,nom,prenom,age)
+        super().__init__(nom,prenom,age)
         self.__panier=list()
         self.__total=0
 
@@ -20,5 +20,5 @@ class Client(Person):
         self.total=produit.prix
 
     def __repr__(self):
-        return Person.__repr__(self)+" il a acheté ces produits {} ".format(self.__panier)
+        return super().__repr__()+" il a acheté ces produits {} ".format(self.__panier)
 
