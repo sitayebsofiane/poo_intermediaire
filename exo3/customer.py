@@ -18,6 +18,7 @@ class Client(Person):
     def __add__(self, produit):
         self.__panier.append(produit)
         self.total=produit.prix
+        return self
 
     def __repr__(self):
         return super().__repr__()+" il a acheté ces produits {} ".format(self.__panier)

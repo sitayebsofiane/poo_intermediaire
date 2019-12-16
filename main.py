@@ -6,6 +6,11 @@ from exo3.customer import Client
 from exo3.employe import Employe
 from exo3.person import Person
 
+client = Client("mahydine","marketing",40)
+produit1=Produit("tomate",1.2)
+produit2=Produit("banane",1.3)
+client+produit1+produit2
+print(client)
 
 """ creation de l'employé"""
 employe=Employe("turk","nicolas",34)
